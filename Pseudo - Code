@@ -10,12 +10,12 @@ Variable
   nbChoisi 
   
   
-  
 DEBUT 
 
-Afficher ("Choisissez un nombre" )
+afficher ("Choisissez un nombre" )
 nbChoisi <- lireEntier() 
-Répéter nbChoisi : 
-  Afficher ("Bienvenue à la Wild" )
+pour i de 1 à nbChoisi par pas de 1 
+  afficher ("Bienvenue à la Wild" )
+fin de pour 
 
 FIN 
