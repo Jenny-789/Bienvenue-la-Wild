@@ -1,10 +1,4 @@
-Consignes : 
-Demander à l'utilisateur un nombre.
-Afficher le texte "Bienvenue à la wild" autant de fois que le nombre saisi.
-Vous posterez le lien de votre Gist.
 
-
-*Pseudo Code : 
 
 Variable 
   nbChoisi 
