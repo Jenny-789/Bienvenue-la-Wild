@@ -1,0 +1,21 @@
+DEBUT 
+
+prixBonbon <- LireDecimal ()
+argentInitial <- LireDecimal () 
+bonbon = 0 
+
+Tant que prixBonbon <= 0 ou argentInitial <=0
+  prixBonbon <- LireDecimal ()
+  argentInitial <- LireDecimal () 
+Fin Tant que 
+
+Si prixBonbon > 0 and argent > 0 
+  Tant que prixBonbon < argentInitial 
+    argentInitial <- argentInitial - prixBonbon
+    bonbon <- bonbon + 1 
+  Fin Tant que 
+Fin si 
+
+Afficher bonbon 
+  
+FIN
