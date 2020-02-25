@@ -9,8 +9,8 @@ Tant que prixBonbon <= 0 ou argentInitial <=0
   argentInitial <- LireDecimal () 
 Fin Tant que 
 
-Si prixBonbon > 0 and argent > 0 
-  Tant que prixBonbon < argentInitial 
+Si prixBonbon > 0 and argentInitial > 0 
+  Tant que prixBonbon <= argentInitial 
     argentInitial <- argentInitial - prixBonbon
     bonbon <- bonbon + 1 
   Fin Tant que 
